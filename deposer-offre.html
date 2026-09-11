@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Déposer une offre — S&A Portail Stages &amp; Alternances</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-mark">S&amp;A</span>
+            <span class="brand-name">Portail Stages &amp; Alternances</span>
+        </div>
+        <nav class="top-nav">
+            <a href="./index.html">Offres</a>
+            <a href="./offres-suivies.html">Suivies</a>
+            <a href="#" class="active">Déposer</a>
+        </nav>
+    </header>
+
+    <div class="page-body">
+        <main class="page">
+            <div class="deposer-header">
+                <h1>Déposer une offre</h1>
+                <p>Soumettez une opportunité pour la promotion MERN 2026/2027</p>
+            </div>
+
+            <form class="panel form-panel">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="entreprise">Entreprise <span class="required">*</span></label>
+                        <input type="text" id="entreprise" placeholder="ex : Acme Corp">
+                    </div>
+                    <div class="form-group">
+                        <label for="titre">Titre du poste <span class="required">*</span></label>
+                        <input type="text" id="titre" placeholder="ex : Développeur React">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="ville">Ville <span class="required">*</span></label>
+                        <input type="text" id="ville" placeholder="ex : Paris">
+                    </div>
+                    <div class="form-group">
+                        <label for="contrat">Type de contrat <span class="required">*</span></label>
+                        <select id="contrat">
+                            <option>Stage</option>
+                            <option>Alternance</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="technos">Technologies demandées</label>
+                    <input type="text" id="technos"
+                        placeholder="ex : React, Node.js, MongoDB (séparés par des virgules)">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description de la mission <span class="required">*</span></label>
+                    <textarea id="description" rows="4"
+                        placeholder="Décrivez les missions proposées au candidat..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="profil">Profil recherché</label>
+                    <textarea id="profil" rows="3" placeholder="Décrivez le profil idéal pour ce poste..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">Contact ou lien de candidature <span class="required">*</span></label>
+                    <input type="text" id="contact" placeholder="email ou URL de candidature">
+                </div>
+
+                <div class="submit-bar">
+                    <button type="submit" class="submit-btn">Publier l'offre</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
