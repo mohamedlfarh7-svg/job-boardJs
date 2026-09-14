@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouvelle offre — Administration</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="page-body">
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-mark">S&amp;A</span>
+            <span class="brand-name">Portail Stages &amp; Alternances</span>
+        </div>
+        <nav class="top-nav">
+            <a href="../index.html">Offres</a>
+            <a href="../offres-suivies.html">Suivies</a>
+            <a href="../deposer-offre.html" >Déposer</a>
+            <a href="dashboard.html" class="active">Admin</a>
+        </nav>
+    </header>
+
+    <div class="admin-page">
+
+        <div class="admin-header">
+            <div>
+                <h1>Administration</h1>
+                <p class="page-sub">10 offres publiées</p>
+            </div>
+        </div>
+
+        <form class="admin-form-panel">
+            <h2>Nouvelle offre</h2>
+
+            <div class="admin-form-grid">
+                <div class="admin-form-group">
+                    <label for="titre">Titre <span class="required">*</span></label>
+                    <input type="text" id="titre" name="titre" placeholder="Titre du poste" required>
+                </div>
+
+                <div class="admin-form-group">
+                    <label for="entreprise">Entreprise <span class="required">*</span></label>
+                    <input type="text" id="entreprise" name="entreprise" placeholder="Nom de l'entreprise" required>
+                </div>
+
+                <div class="admin-form-group">
+                    <label for="ville">Ville <span class="required">*</span></label>
+                    <input type="text" id="ville" name="ville" placeholder="ex : Paris" required>
+                </div>
+
+                <div class="admin-form-group">
+                    <label for="type">Type de contrat <span class="required">*</span></label>
+                    <select id="type" name="type" required>
+                        <option>Stage</option>
+                        <option>Alternance</option>
+                    </select>
+                </div>
+
+                <div class="admin-form-group full">
+                    <label for="desc-courte">Description courte</label>
+                    <input type="text" id="desc-courte" name="desc_courte" placeholder="Résumé en une phrase">
+                </div>
+
+                <div class="admin-form-group full">
+                    <label for="desc-longue">Description détaillée</label>
+                    <textarea id="desc-longue" name="desc_longue"
+                        placeholder="Description complète de la mission"></textarea>
+                </div>
+
+                <div class="admin-form-group">
+                    <label for="profil">Profil recherché</label>
+                    <input type="text" id="profil" name="profil" placeholder="Profil attendu">
+                </div>
+
+                <div class="admin-form-group">
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" placeholder="email ou URL">
+                </div>
+            </div>
+
+            <div class="admin-form-actions">
+                <button type="button" class="btn-outline">Annuler</button>
+                <button type="submit" class="btn-dark">Créer l'offre</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
