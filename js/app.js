@@ -1,8 +1,11 @@
+import { getData } from "./data"
+import { renderOffers } from "./render"
+
 async function init() {
     try{
         const offres = await getData()
         renderOffers(offres)
-        renderOfferDetail(offres) 
+        // renderOfferDetail(offres) 
         // console.log(offres)
     }
     catch (error){

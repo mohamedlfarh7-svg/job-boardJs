@@ -1,4 +1,4 @@
-function renderOffers(offers) {
+ export function renderOffers(offers) {
 
     const listings = document.getElementById('listings');
 
