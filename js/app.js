@@ -1,5 +1,5 @@
-import { getData } from "./data"
-import { renderOffers } from "./render"
+import { getData } from "./data.js"
+import { renderOffers } from "./render.js"
 
 async function init() {
     try{
