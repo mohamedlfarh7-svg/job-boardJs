@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "entreprise": "Acme Corp",
+    "titre": "Développeur React",
+    "ville": "Paris",
+    "typeContrat": "Stage",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "description": "Développement de nouvelles fonctionnalités pour notre plateforme SaaS, en binôme avec l'équipe front-end.",
+    "profil": "Étudiant en formation MERN, à l'aise avec JavaScript moderne (ES6+) et Git.",
+    "contact": "recrutement@acmecorp.com",
+    "datePublication": "2026-09-10",
+    "suivie": false
+  },
+  {
+    "id": 2,
+    "entreprise": "DataFlow",
+    "titre": "Développeur Backend Node.js",
+    "ville": "Lyon",
+    "typeContrat": "Alternance",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Docker"
+    ],
+    "description": "Conception et maintenance d'APIs REST pour des clients grands comptes.",
+    "profil": "Bonnes bases en architecture backend et bases de données NoSQL.",
+    "contact": "https://dataflow.io/candidature",
+    "datePublication": "2026-09-08",
+    "suivie": true
+  },
+  {
+    "id": 3,
+    "entreprise": "NovaTech",
+    "titre": "Développeur Fullstack MERN",
+    "ville": "Toulouse",
+    "typeContrat": "Stage",
+    "technologies": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js"
+    ],
+    "description": "Participation à la refonte complète de l'application interne de gestion de projets.",
+    "profil": "Autonome, curieux, avec une première expérience sur la stack MERN (projets académiques acceptés).",
+    "contact": "jobs@novatech.fr",
+    "datePublication": "2026-09-05",
+    "suivie": false
+  },
+  {
+    "id": 4,
+    "entreprise": "Cloudinity",
+    "titre": "Ingénieur DevOps Junior",
+    "ville": "Nantes",
+    "typeContrat": "Alternance",
+    "technologies": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Node.js"
+    ],
+    "description": "Mise en place de pipelines CI/CD et automatisation du déploiement des microservices.",
+    "profil": "Notions en conteneurisation et scripting, envie d'apprendre les infrastructures cloud.",
+    "contact": "https://cloudinity.com/carrieres",
+    "datePublication": "2026-09-12",
+    "suivie": false
+  },
+  {
+    "id": 5,
+    "entreprise": "Pixelia Studio",
+    "titre": "Développeur Frontend React",
+    "ville": "Bordeaux",
+    "typeContrat": "Stage",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "description": "Intégration de maquettes Figma et développement de composants réutilisables pour nos clients.",
+    "profil": "Sensibilité au design UI/UX et bonne maîtrise du CSS moderne.",
+    "contact": "recrutement@pixelia-studio.fr",
+    "datePublication": "2026-09-01",
+    "suivie": true
+  },
+  {
+    "id": 6,
+    "entreprise": "FinSecure",
+    "titre": "Développeur Backend Sécurité",
+    "ville": "Paris",
+    "typeContrat": "Alternance",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "description": "Renforcement des mécanismes d'authentification et d'audit sur notre plateforme bancaire.",
+    "profil": "Intérêt marqué pour la cybersécurité et rigueur sur les bonnes pratiques de code.",
+    "contact": "talents@finsecure.fr",
+    "datePublication": "2026-08-28",
+    "suivie": false
+  },
+  {
+    "id": 7,
+    "entreprise": "GreenLoop",
+    "titre": "Développeur Fullstack Impact",
+    "ville": "Lille",
+    "typeContrat": "Stage",
+    "technologies": [
+      "MongoDB",
+      "React",
+      "Node.js"
+    ],
+    "description": "Développement d'une application de suivi de l'empreinte carbone pour les PME.",
+    "profil": "Motivé par les projets à impact environnemental, bases solides en JavaScript.",
+    "contact": "hello@greenloop.eco",
+    "datePublication": "2026-08-20",
+    "suivie": false
+  },
+  {
+    "id": 8,
+    "entreprise": "MediConnect",
+    "titre": "Développeur Fullstack Santé Numérique",
+    "ville": "Marseille",
+    "typeContrat": "Alternance",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "description": "Contribution à une plateforme de prise de rendez-vous médicaux en ligne.",
+    "profil": "Sérieux, sens du détail, à l'aise avec les API GraphQL.",
+    "contact": "rh@mediconnect.fr",
+    "datePublication": "2026-08-15",
+    "suivie": true
+  }
+]
