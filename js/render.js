@@ -33,15 +33,29 @@ export function renderOffers(offers) {
 
 }
 
+    // "entreprise": "Acme Corp",
+    // "titre": "Développeur React",
+    // "ville": "Paris",
+    // "typeContrat": "Stage",
+    // "technologies": [
+    //   "React",
+    //   "Node.js",
+    //   "MongoDB"
+    // ],
+    // "description": "Développement de nouvelles fonctionnalités pour notre plateforme SaaS, en binôme avec l'équipe front-end.",
+    // "profil": "Étudiant en formation MERN, à l'aise avec JavaScript moderne (ES6+) et Git.",
+    // "contact": "recrutement@acmecorp.com",
+    // "datePublication": "2026-09-10",
+    // "suivie": false
+
 export function renderOfferDetail(offer) {
     const offerDetail = document.getElementById('offer-detail');
-
-console.log(offer)
+ console.log(offer)
     offerDetail.innerHTML = `
       <section class="offer-hero">
       <div>
         <div class="offer-hero-meta">
-          <span class="tag stage">Stage</span>
+          <span class="tag stage">${offer.typeContrat}</span>
           <span>07 sept. 2026</span>
         </div>
         <h1>Stage Full-stack Next.js</h1>
